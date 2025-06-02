@@ -1,0 +1,10 @@
+
+SET name "Ankita"
+
+GET name
+
+APPEND name " The Great"
+
+GET name
+
+DEL name

@@ -1,0 +1,7 @@
+USE testdb;
+
+
+db.users.insertOne({ name: "Ankita" });
+db.users.updateOne({ name: "Ankita" }, { $set: { name: "Ankita the Great" } });
+db.users.find();
+db.users.deleteOne({ name: "Ankita the Great" });
